@@ -1,0 +1,14 @@
+{
+  "name": "Drone VR",
+  "short_name": "Drone VR",
+  "icons": [{
+    "src": "icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "scope": "",
+  "orientation": "landscape",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "display": "fullscreen"
+}
