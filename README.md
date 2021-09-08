@@ -1,6 +1,6 @@
 # Drone VR PWA
 
-This is the drone VR PWA application, which works with
+This is the drone VR progressive web application, which works with
 [jgoppert/purt\_catkin\_ws].
 
 ## Prerequisites
@@ -30,4 +30,21 @@ determined. You may override them:
 go run main.go 8181 10.0.0.105
 ```
 
+## VR PWA Setup
+
+On the Pixel phone, visit the server's IP address on the Chrome browser. It
+should load a black page with a stream from Gazebo.
+
+Next, click on the menu on the top right corner of the browser, and select "Add
+to Home screen."
+
+The progressive web application should appear on the home screen.
+
+**Note:** Sometimes the image may be frozen or blank, you may swipe down to
+refresh the page.
+
+You also need to set screen timeout in the phone's settings to the highest option.
+
+If the machine IP address changes, you will have to remove the app from the home
+screen and add it again.
 
